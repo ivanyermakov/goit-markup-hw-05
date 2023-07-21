@@ -413,27 +413,89 @@
     </div>
   </footer>
 
-
-
+<!-- -------MODAL------- -->
 
   <div class="container-modal is-hidden" data-modal>
     <div class="modal ">
       <button class="modal-button" type="button" data-modal-close>
         <svg class="modal-svg" width="8" height="8">
-          <use href="./images/symbol-defs.svg#icon-close-black">
-
-          </use>
+          <use href="./images/symbol-defs.svg#icon-close-black"></use>
         </svg>
       </button>
+      <p class="">Leave your contacts and we will call you back</p>
+      <form class="">
+        <div class="">
+          <label for="user-name" class="">Name</label>
+          <div class="">
+            <input
+              type="text"
+              name="user-name"
+              id="user-name"
+              class=""
+              required/>
+            <svg class="" width="18" height="24">
+              <use href=""></use>
+            </svg>
+          </div>
+        </div>
+        <div class="">
+          <label for="tel" class="">Phone</label>
+          <div class="">
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              class=""
+              required/>
+            <svg class="" width="18" height="24">
+              <use href=""></use>
+            </svg>
+          </div>
+        </div>
+        <div class="">
+          <label for="email" class="">Email</label>
+          <div class="">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class=""
+              required/>
+            <svg class="" width="18" height="24">
+              <use href=""></use>
+            </svg>
+          </div>
+        </div>
+        <div class="">
+          <label for="user-comment" class="">Comment</label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            placeholder="Text input"
+            class=""
+          ></textarea>
+        </div>
+        <div class="">
+          <input
+            type="checkbox"
+            name="user-privacy"
+            value="true"
+            id="user-privacy"
+            class=""/>
+          <label for="user-privacy" class="">
+            <span class="">
+              <svg class="" width="10" height="8">
+                <use href=""></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="" href="#">Privacy Policy</a>
+          </label>
+        </div>
+        <button type="submit" class="">Send</button>
+      </form>
     </div>
   </div>
-
-
-
   <script src="./js/modal.js"></script>
-
-
-
 </body>
-
 </html>
