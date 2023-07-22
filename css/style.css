@@ -901,3 +901,11 @@ button {
 ::before {
   box-sizing: border-box;
 }
+
+.modal-text {
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em; 
+  color: var(--title-text-color); 
+}
