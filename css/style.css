@@ -252,7 +252,7 @@ h3 {
 }
 
 .site-nav .link {
-  color: var(--bcg-button-color);
+  color: var(--title-text-color);
 
   padding-top: 24px;
   padding-bottom: 24px;
@@ -263,13 +263,13 @@ h3 {
   font-weight: 500;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--bcg-button-color);
 }
 
-.site-nav .link.current {
-  color: var(--title-text-color);
+.site-nav-link.current {
+  color: var(--bcg-button-color);
 }
 
 .site-nav .link::after {
@@ -280,6 +280,18 @@ h3 {
   background-color: var(--bcg-button-color);
   border-radius: 2px;
 }
+
+.site-nav-link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height:значення ;
+  border-radius:значення ;
+  background-color: значення;
+  }
 
 .site-nav-link {
   color: var(--bcg-button-color);
@@ -526,25 +538,23 @@ button {
   letter-spacing: 0.02em;
 }
 
+.current {
+  color: var(--bcg-button-color);
+  position: relative;
+}
+
 .team .text {
   color: var(--primary-text-color);
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-title {
   text-align: center;
   margin-bottom: 72px;
-}
-
-.team-text {
-  text-align: center;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .team-list {
