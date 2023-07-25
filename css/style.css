@@ -878,6 +878,8 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
 .modal {
   position: absolute;
   top: 50%;
@@ -963,9 +965,7 @@ button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icons:focus {
-  fill: var(--accent-text-color);
-}
+
 
 .text-area {
   width: 100%;
@@ -1056,8 +1056,10 @@ button {
   display: flex; 
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .modal-button-icon {
   margin-left: 16px;
+  fill: var(--white-text-color);
 }
