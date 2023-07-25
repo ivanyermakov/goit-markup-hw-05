@@ -1021,6 +1021,46 @@ button {
 
 }
 
+.form-checkbox-container {
+  margin-bottom: 24px;
+}
+
+.input-checkbox:focus + .checkbox-label > .check-box {
+  border-color: var(--actions);
+}
+
+.checkbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text);
+}
+
+.input-checkbox:checked + .checkbox-label > .check-box {
+  background-color: var(--actions);
+  border: none;
+  fill: var(--light);
+}
+
+.check-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  fill: transparent;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-label {
+  margin-bottom: 16px;
+}
+
 /* SUBSCRIBE */
 
 .footer-form-text {
