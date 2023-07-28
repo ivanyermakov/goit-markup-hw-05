@@ -96,11 +96,11 @@ h3 {
 
 /* Container */
 .container {
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .container-what-are-we-doing {
