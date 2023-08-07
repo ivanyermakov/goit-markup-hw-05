@@ -1094,6 +1094,7 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  display: none;
 }
 
 .privacy-link {
