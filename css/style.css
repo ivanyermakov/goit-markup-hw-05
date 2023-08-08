@@ -1060,6 +1060,14 @@ button {
   fill: var(--accent-text-color);
 }
 
+input:checked + .label > .modal-span{
+  background-color: var(--bcg-button-color);
+  fill:white;
+  border: none;
+}
+
+
+
 .modal-icons {
   position: absolute;
   left: 16px;
