@@ -1025,6 +1025,7 @@ button {
 
 .container-label {
   margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .label {
@@ -1139,9 +1140,7 @@ input:checked + .label > .modal-span{
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.container-for-label {
-  margin-bottom: 16px;
-}
+
 
 
 /* SUBSCRIBE */
