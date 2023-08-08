@@ -1028,6 +1028,10 @@ button {
   /* margin-bottom: 16px; */
 }
 
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
 .label {
   font-size: 12px;
   line-height: 1.17;
