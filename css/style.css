@@ -1033,7 +1033,7 @@ button {
   letter-spacing: 0.04em;
   color: var(--border-color-2);
   margin-bottom: 4px;
-  /* display: block; */
+  display: block;
 }
 
 .container-input {
@@ -1054,6 +1054,10 @@ button {
 
 .input:focus {
   border-color: var(--accent-text-color);
+}
+
+.input:focus + .modal-icons {
+  fill: var(--accent-text-color);
 }
 
 .modal-icons {
@@ -1105,7 +1109,7 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
- 
+  margin-right: 8px;
 }
 
 .privacy-link {
