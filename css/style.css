@@ -1086,6 +1086,11 @@ button {
 
 .container-privacy {
   margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  
 }
 
 .modal-span {
